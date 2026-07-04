@@ -1,19 +1,5 @@
 import { Link } from 'react-router-dom'
-import { ChapterTwoFooter } from '../components/chapter-two/ChapterTwoFooter'
-import { ChapterTwoNav } from '../components/chapter-two/ChapterTwoNav'
 import { StoryPanel } from '../components/chapter-two/StoryPanel'
-
-const navItems = [
-  { label: 'Prologue', href: '#' },
-  { label: 'Our Story', href: '#', active: true },
-  { label: 'Memories', href: '#' },
-  { label: 'The Sky', href: '#' },
-]
-
-const footerLinks = [
-  { label: 'Privacy Policy', href: '#' },
-  { label: 'Our Promise', href: '#' },
-]
 
 const villageImage =
   'https://lh3.googleusercontent.com/aida-public/AB6AXuB2PfBqOtqUr4t1XgQgELWWbx2qH27y80Y2DINqvuYHMXcy7hhy_xdpNiDSjQwnTTKf9926ecMlpTzHI6oQjSLDzBmbro-hdr-Mw6nhKprYj_NejVqD0AAgO-R-hI_ow4uk2HoukWJC-JL14uuAe8AQJAJflziuqpox8Caq0Ivtc_4dChQO6OK2VmgsL2sKTN5iRWgk4NTKJna_kq-O_ghsA3CCjlEuG_RV_l3Y1yIGAiV-HXCvAvEX1st2dw9Xo_eCbINzVQmT-YA'
